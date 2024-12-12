@@ -1,0 +1,8 @@
+[project]
+name = "pi1minted" # change this to a package name for your plugin
+version = "0.0.1"
+dependencies = ["pygments"]
+readme = "README.md"
+
+[project.entry-points."pygments.styles"]
+pi1style = "pi1_style:Pi1Style"
