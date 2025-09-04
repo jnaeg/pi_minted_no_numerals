@@ -12,9 +12,10 @@ from pygments.token import (
 )
 
 
-class Pi1Style(Style):
+class PiOneStyle(Style):
     """
     A colorful style, inspired by the terminal highlighting style.
+    Same as Pi1Style, only no numerical character in style name.
     """
 
     background_color = "#ffffff"
